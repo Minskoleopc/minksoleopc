@@ -42,8 +42,6 @@ function Calculator(x,y){
 Calculator(12,4)
 Calculator(4,2)
 
-
-
 // program 4
 // function without parameter and without return type 
 function add(){
@@ -65,7 +63,6 @@ addB(15,5)
 // function with parameter and with return type
 // 100 given  // 100 + 100 , 100 - 50 , 100 * 0.10 , 100 / 5
 // 100 shown // no use
-
 function addC(x,y){
     return x + y
 }

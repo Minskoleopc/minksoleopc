@@ -91,7 +91,6 @@
 // Propeties - accName , accNo , accType , balance , IFSCcode , branchName 
 // Methods - deposit() , withdrawl()
 
-
 let x = 10
 console.log(x)
 console.log(typeof x) 
@@ -133,13 +132,8 @@ console.log(8 >= 8)
 console.log(8 <= 8)
 
 
-
-
-
-
-
-
-
+// FE , BE , SQL
+// 943 TCS
 
 
 

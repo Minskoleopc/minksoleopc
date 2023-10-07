@@ -27,7 +27,7 @@
 // // NOT   - !
 
 // // true   =====> false 
-// // false  ======> false 
+// // false  ======> true 
 
 // console.log(!6 == 6)
 // console.log(!8 == 8)

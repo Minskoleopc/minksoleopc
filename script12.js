@@ -75,8 +75,103 @@ cities.forEach(function(el,index,arr){
     console.log("welcome "+ el)
 })
 
-
 // some() , every() , find() , findindex()
+
+//             0  1  2   3 4  5  6   7  8  9  10  11 
+let numbers = [11,22,33,44,55,66,22,33,44,55,677,78]
+let q6 = numbers.filter(function(el,index,arr){
+    return el > 50
+})
+console.log(q6)
+
+let q7 = numbers.find(function(el,index,arr){
+    return el > 50
+})
+console.log(q7)
+
+let q8 = numbers.findIndex(function(el,index,arr){
+    return el > 50
+})
+console.log(q8)
+
+
+let mks = [1,22,33,44,55,33,22,33]
+let q9 = mks.every(function(el,index,arr){
+    return el> 10
+})
+console.log(q9)
+
+let q10 = mks.some(function(el,index,arr){
+    return el > 50
+})
+console.log(q10)
+
+//--------------------------------------------------------->
+
+
+// flat()
+//                    0                        1                 2
+//                0        1          0         1          0          1
+let state = [  ["wardha","nagpur"],["chennai","mysore"],["bhopal","indore"]]
+console.log(state[0][1])
+console.log(state[1][0])
+console.log(state[2][1])
+let q11 = state.flat()
+console.log(q11)
+
+// slice()
+//              0        1         2        3          4         5
+let citiess = ["pune","mumbai","banglore","chennai","kolkata","mysore"]
+//              -6        -5      -4        -3         -2         -1
+//citiess.slice(startIndex,EndIndex(not included))
+//console.log(citiess[0])
+console.log(citiess.slice(1))
+console.log(citiess.slice(2,5))
+console.log(citiess.slice(0,-1))
+console.log(citiess.slice(-5,4))
+console.log(citiess.slice(-5,-1))
+console.log(citiess.slice(-1,-5))
+console.log(citiess.slice(-2))
+
+// splice()
+//               0        1      2        3       4        5
+let animals = ["tiger","lion","bullock",'camel',"rabbit","snake"]
+// animals.shift()
+// animals.pop()
+//animals.splice(index,numberOfElmentstoBeDeleted,rep1,rep2)
+//animals.splice(3,3)
+
+animals.splice(2,2,"bear","frog","cat")
+console.log(animals)
+
+// fill()
+//              0  1  2  3  4  5  6   7 8
+let numbersB = [11,22,33,44,55,66,77,88,99]
+numbersB.fill(undefined,4,7)
+console.log(numbersB)
+
+// sort()
+let country = ["india","srilanka","bangladesh","japan"]
+country.sort()
+console.log(country)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

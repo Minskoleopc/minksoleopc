@@ -92,3 +92,111 @@ console.log(a18)
 let a19 = a18.split('-')
 console.log(a19)
 //["chinmay","deshpande","7709192441"]
+
+
+
+// -------------------------------> 
+
+// toUpperCase() , to Lower()
+let str = "Hello world !"
+a  = str.toUpperCase()
+console.log(a)
+b = str.toLowerCase()
+console.log(b)
+
+// concat()
+
+let  firstName = "chinmay"
+let  lastName = "deshpande"
+c = firstName.concat(" ").concat(lastName)
+console.log(c)
+
+//trimStart() , trimEnd() , trim()
+
+let cityE = " goa "
+console.log(cityE.trimStart().length)
+console.log(cityE.trimEnd().length)
+console.log(cityE.trim().length)
+
+// repeat()
+let str2 = "abc" 
+let d = str2.repeat(3)
+console.log(d)
+
+// charAt() , charCodeAt()
+
+let city11 = "Nagpur"
+let e = city11.charAt(2)
+let g = city11.charCodeAt(0)
+console.log(e)
+console.log(g)
+
+// startsWith() , endsWiths() ,includes()
+let city12 = "chennai"
+city12.startsWith("c")  // true 
+city12.startsWith("che") // true
+city12.endsWith("nai")  // true
+city12.endsWith("i") // true
+city12.includes("nn") // true
+city12.includes("n") // true
+
+// replace() , replaceAll()
+let info2 = "I am learning javascript and javascript is nice !"
+let h = info2.replace("javascript","python")
+let i = info2.replaceAll("javascript","python")
+console.log(h)
+console.log(i)
+
+
+// join()
+// split()
+
+let info3 = "chinmay shirish deshpande"
+let k = info3.split(' ')
+let ka = info3.split('a')
+console.log(k)
+console.log(ka)
+
+let info4 = ["chinmaydeshpande","gmail.com"]
+let l = info4.join('@')
+console.log(l)
+
+// ["chinmay","shirish","deshpande"]
+//["chinm,"y shirish deshp","nde"]
+
+let strQ = '25'
+let m = strQ.padStart(4,'0')
+console.log(m)
+
+
+let strQM = '25'
+let n = strQ.padEnd(8,'I')
+console.log(n)
+
+// slice()
+
+// 8.00 pm , 8:30 pm python , 9.00 pm java
+// 7:30 pm typescript
+// seleniumJava seleniumPython  Cypress   Playwright
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

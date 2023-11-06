@@ -1,4 +1,4 @@
-a.data[0].first_name
+a.data[0].skills[2]
 let a = {
     "page": 2,
     "per_page": 6,

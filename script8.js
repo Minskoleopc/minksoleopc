@@ -58,9 +58,7 @@ while(t6 >= 5){
     t6 = t6 - 5
 }
 
-
 // break with while loop 
-
 let t7 = 1
 while(t7 <= 5){
     console.log(t7) // 1 // 2 // 3

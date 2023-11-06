@@ -46,7 +46,6 @@ for(let i = 1 ; i <= 5 ; i++){  // 2 // 3
 }
 
 
-
 for(let i = 1 ; i <= 5 ; i++){ // 2 // 3
     console.log(i) // 1 // 2 //3
     if(i == 3){
